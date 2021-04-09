@@ -4,6 +4,21 @@ alias gpr='cd ~/js_projects/'
 alias ..2='../../'
 alias ..3='../../../'
 
+#Git stuff
+alias gs='git status'
+alias ga='git add *.py'
+alias gst='git stash'
+alias gpt='git push thormeg'
+alias pull='git pull'
+alias fetch='git fetch --all'
+alias fetchp='git checkout master && git fetch --all && git pull'
+
+# Code and scratch stuff
+alias scratch='python -i /Users/darren/Git/scripts/scratchpad.py
+
+#Random commands
+alias ff='find . -type f -iname '
+
 # Config
 alias renew='. ~/.bashrc'
 alias aliases='vi ~/.bash_aliases'
