@@ -14,7 +14,7 @@ alias fetch='git fetch --all'
 alias fetchp='git checkout master && git fetch --all && git pull'
 
 # Code and scratch stuff
-alias scratch='python -i /Users/darren/Git/scripts/scratchpad.py
+alias scratch='python -i /Users/darren/Git/scripts/scratchpad.py'
 
 #Random commands
 alias ff='find . -type f -iname '
@@ -24,6 +24,7 @@ alias renew='. ~/.bashrc'
 alias aliases='vi ~/.bash_aliases'
 
 # Workflow
+alias vi='vim'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
